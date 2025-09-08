@@ -1,0 +1,7 @@
+- [ ] Fix syntax error: Add '=' in const app = express()
+- [ ] Rearrange imports to the top
+- [ ] Group app initialization after imports
+- [ ] Group middleware after app init
+- [ ] Group routes after middleware
+- [ ] Group server listen at the end
+- [ ] Add semicolons for consistency

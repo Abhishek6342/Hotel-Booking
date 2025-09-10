@@ -2,10 +2,10 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import Home from './pages/Home'
-// import Footer from './components/Footer'
 import AllRooms from './pages/AllRooms'
 import RoomDetails from './pages/RoomDetails'
 import MyBookings from './pages/MyBookings'
+import Payment from './pages/Payment'
 import HotelReg from './components/HotelReg'
 import Layout from './pages/hotelOwner/Layout'
 import Dashboard from './pages/hotelOwner/Dashboard'
@@ -36,6 +36,8 @@ const App = () => {
             <Route path='list-room' element={<ListRoom />} />
           </Route>
           <Route path='/hotelreg' element={<HotelReg />} />
+          <Route path='/payment' element={<Payment />} />
+          
           
 
 
